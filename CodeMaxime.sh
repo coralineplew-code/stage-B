@@ -80,15 +80,13 @@ log "BOARD_ID=$BOARD_ID"
 echo "[1/16] Installation des dépendances..."
 step_start "[1/16] Installation des dépendances..." "1/16"
 
-if [ -f /etc/apt/apt.conf.d/95proxy ]; then
-    rm /etc/apt/apt.conf.d/95proxy
-fi
+# if [ -f /etc/apt/apt.conf.d/95proxy ]; then
+#     rm /etc/apt/apt.conf.d/95proxy
+# fif 95proxy ]; then
+#     cp 95proxy /etc/apt/apt.conf.d/
+# fi
 
-if [ -f 95proxy ]; then
-    cp 95proxy /etc/apt/apt.conf.d/
-fi
-
-date -s "04 JUN 2026 10:00:00"
+#date -s "04 JUN 2026 10:00:00"
 
 apt update
 
