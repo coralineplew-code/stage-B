@@ -1,4 +1,7 @@
 code des rasberry:
+
+
 pi3: nom :Pi3-maitre
      nom d utilisateur: ubuntu
      mot de passe: ubuntu
+ 
